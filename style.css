@@ -1,12 +1,13 @@
-.body{
+body{
     margin: 0px;
     height: 100vh;
     border: 0px;
+    font-family: 'Roboto', arial;
 }
 
 .header{
   display: flex;  
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -16,16 +17,18 @@
     font-size: 24px;
    color: #F9FAF8;
    gap: 20px;
+   padding-left: 50px;
 }
 
 .right{
     display: flex;
+    padding-right: 50px;
 }
 
 ul{
 list-style-type: none;
 display: flex;
-gap: 20px;
+gap: 30px;
 }
 
 a{
@@ -70,6 +73,7 @@ color: #E5E7EB ;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    border-color: #F9FAF8;
 }
 
 .second{
@@ -78,6 +82,10 @@ color: #E5E7EB ;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+img{
+    border-radius: 20px;
 }
 
 h3{
@@ -91,7 +99,7 @@ justify-content: center;
 .styles{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 160px;
 }
 
 .text{
@@ -152,6 +160,7 @@ justify-content: center;
     color: #F9FAF8;
     border-radius: 5px;
     padding: 5px;
+    width: 70px;
 }
 
 .footer{
